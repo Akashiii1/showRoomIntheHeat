@@ -1,0 +1,35 @@
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #11100E , #302F2A);
+  padding: 0 20px;
+}
+  
+.heading{
+  color: #fff;
+}
+.heading h1{
+  font-size: 40px;
+  font-weight: 500;
+
+}
+.heading-desc{
+  padding: 10px 0;
+  text-align: center;
+}
+/* nav */
+.nav{}
+.nav-list{
+  list-style: none;
+}
+.nav-list .nav-item a{
+  text-decoration: none;
+  color: #11100E;
+  font-size: 20px;
+  font-weight: 600;
+}

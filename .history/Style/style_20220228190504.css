@@ -1,0 +1,12 @@
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, red , yellow);}
+.heading{
+  color: #fff;
+}

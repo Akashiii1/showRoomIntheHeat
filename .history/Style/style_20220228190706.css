@@ -1,0 +1,15 @@
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #11100E , #302F2A);
+  padding: 0 20px;
+}
+  
+.heading{
+  color: #fff;
+}

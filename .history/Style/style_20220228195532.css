@@ -1,0 +1,120 @@
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #11100E , #302F2A);
+  padding: 0 20px;
+}
+  
+.heading{
+  color: #fff;
+}
+.heading h1{
+  font-size: 40px;
+  font-weight: 500;
+
+}
+.heading-desc{
+  padding: 10px 0;
+  text-align: center;
+}
+/* nav */
+.nav{
+  background-image: linear-gradient(to bottom,#FFDA00,#FEAF03);
+}
+.nav-list{
+  list-style: none;
+  width: 100%;
+}
+.nav-list .nav-item{
+  display: inline-block;
+  /* border-right: 1px solid #000; */
+    transition: all .3s linear;
+}
+.nav-item:hover > a{
+  transform: scale(1.1);
+}
+.nav-item:hover .line{
+  background-color: #20E3B2;
+}
+.nav-list .nav-item a{
+  text-decoration: none;
+  color: #11100E;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 20px;
+  display: inline-block;
+  
+}
+.line{
+  width: 2px;
+  height: 20px;
+  background-color: #000;
+  display: inline-block;
+  line-height: 50px;
+}
+/* content */
+.content{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ccc;
+}
+/* main content */
+.main-content{
+  width: 70%;
+  height: 100px;
+  background-color: #f00f0f;
+}
+/* sidebar */
+.side-bar{
+  width: 30%;
+  padding: 20px;
+}
+.side-bar-title{
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
+.side-item{
+  margin-top: 20px;
+  background-color: #423D3D;
+}
+.side-item .item-title{
+  color: #FEAF03;
+  display: block;
+  padding: 10px 20px;
+  background-color: #973300;
+}
+.side-item .item-img{
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.side-item .item-img img{
+ width: 250px;
+ height: auto;
+ border: 2px solid #fff;
+  object-fit: cover;
+  transition: all .2s linear;
+}
+.side-item .item-img img:hover{
+  transform: scale(.9);
+}
+.item-desc{
+  color: #fff;
+  padding: 10px 20px;
+  opacity: .7;
+}
+.item-more{
+  padding: 10px 20px;
+  color: #FFDA00;
+  text-decoration: underline;
+  text-align: right;
+  display: block;
+  cursor: pointer;
+}
